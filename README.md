@@ -31,15 +31,22 @@ newLine();
 drawBox(blue);
   //Esse código desenhará um quadrado azul, se moverá para a próxima linha e, em seguida, desenhará outro quadrado azul.
 ```
+  ##
+  
+  3- ``
+  
+  ##
   
   <details>
  <summary><b> Clique aqui para ver o meu Progresso-Grass 💡 </b></summary>
 
-    Um simples progresso de Pixelon
+    Um simples progresso de Pixelon.
+    No final irei explicar cada coisa
     
   | Partes Grass  | Status |
 | ------------- | ------------- |
 | drawBox()  | ✅  |
 | newLine()  | ✅  |
+|   |   |
 
 </details>
