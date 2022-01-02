@@ -5,7 +5,7 @@
 
 <li> Funções:
   
-  `drawBox()`
+  1- `drawBox()`
   
   > Cria um quadrado com base na cor entre parênteses. Por exemplo, drawBox(red) desenha um quadrado vermelho.
 
@@ -18,4 +18,28 @@ drawBox(blue); //Esse código desenhará um quadrado azul.
   
   ##
   
+  2- `newLine()`
   
+  > Move o cursor, o pequeno gafanhoto, para a próxima linha. Geralmente é útil ao criar quadrados com drawBox().
+  
+
+CÓDIGO DE EXEMPLO:
+  
+```js
+drawBox(blue);
+newLine();
+drawBox(blue);
+  //Esse código desenhará um quadrado azul, se moverá para a próxima linha e, em seguida, desenhará outro quadrado azul.
+```
+  
+  <details>
+ <summary><b> Clique aqui para ver o meu Progresso-Grass 💡 </b></summary>
+
+    Um simples progresso de Pixelon
+    
+  | Partes Grass  | Status |
+| ------------- | ------------- |
+| drawBox()  | ✅  |
+| newLine()  | ✅  |
+
+</details>
