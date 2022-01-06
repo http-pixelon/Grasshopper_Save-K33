@@ -33,7 +33,36 @@ drawBox(blue);
 ```
   ##
   
-  3- ``
+  3- `pickRandom()`
+  
+  > Escolhe uma cor aleatória, item de uma array ou número.
+  
+  ```js
+  var arrayOfColors = ['blue', 'orange'];
+var randomColor = pickRandom(arrayOfColors); //randomColor será 'blue' ou 'orange'.
+  ```
+  
+  ##
+  
+  4- `str`
+  
+  > Letras, palavras e frases são chamadas de strings na programação. As aspas são usadas para mostrar o início e o fim de uma string. Por exemplo, 'hello world' é uma string..
+  
+  ```js
+  drawBoxes('royg');
+  // 'royg' é uma string usada na função drawBoxes() para criar caixas vermelhas, laranja, amarelas e verdes.
+  ```
+
+  ##
+  
+  5- `boolean`
+  
+  > Um boolean é um dos dois valores especiais em JavaScript, true ou false. Eles são úteis para lidar com estados que possuem apenas duas possibilidades.
+  
+  ```js
+  var isLearningToCode = true; var shouldWearSocksWithSandals = false;
+  // É true que você está aprendendo a programar, mas é false que se deva usar meias com sandálias.
+  ```
   
   ##
   
