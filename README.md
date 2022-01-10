@@ -66,6 +66,19 @@ var randomColor = pickRandom(arrayOfColors); //randomColor será 'blue' ou 'oran
   
   ##
   
+  6- `var`
+  
+  > Uma forma de armazenar um valor para uso posterior, também conhecido como variável. Uma var deve ter um nome (também conhecido como identificador) e, opcionalmente, pode ser atribuído um valor, que pode ser um número, uma string ou um dado mais complexo.
+  
+  ```js
+  var cityOfOrigin = 'Pittsburgh';
+var cityOfDestination;
+cityOfDestination = 'Manila';
+  // cityOfOrigin é uma variável que será igual a 'Pittsburgh'. Em seguida, outra variável chamada cityOfDestination é criada e mais tarde recebe um novo valor de 'Manila'.
+  ```
+  
+  ##
+  
   <details>
  <summary><b> Clique aqui para ver o meu Progresso-Grass 💡 </b></summary>
 
