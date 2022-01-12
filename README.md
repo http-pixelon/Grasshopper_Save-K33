@@ -81,11 +81,11 @@ cityOfDestination = 'Manila';
   
   7- `print()`
   
-  > Pega o que está entre parênteses e exibe. Por exemplo, `print('hello world')` exibiria o texto 'hello world'.
+  > Pega o que está entre parênteses e exibe. Por exemplo, `print('xanagem')` exibiria o texto 'xanagem'.
   
   ```js
-  print('Hello, world!')
-  // O texto 'Hello, world!' será impresso.
+  print('Hello, Pixelworld!')
+  // O texto 'Hello, Pixelworld!' será impresso.
   ```
   
   ##
@@ -109,11 +109,11 @@ cityOfDestination = 'Manila';
   
   ```js
   var objectName = {
-    propertyName: 'Coding is fun​.',
-    otherPropertyName: 'this is also a key value'
+    propertyName: 'Codificar é divertido demais vei​.',
+    otherPropertyName: 'este também é um valor chave'
 };
 print(objectName​.propertyName);
-  // Este código imprimirá 'Coding is fun.'
+  // Este código imprimirá 'Codificar é divertido demais vei.'
   ```
   
   ##
@@ -124,10 +124,10 @@ print(objectName​.propertyName);
   
   ```js
   var groceries = {
-    apples: 5,
+    maças: 5,
     bananas: 2
 };
-  // apples ebananas são propriedades do objeto groceries. 5 e 2 são os valores associados a essas propriedades. groceries.apples, por exemplo, é igual a 5.
+  // maças e bananas são propriedades do objeto groceries. 5 e 2 são os valores associados a essas propriedades. groceries.maças, por exemplo, é igual a 5.
   ```
  
   ##
