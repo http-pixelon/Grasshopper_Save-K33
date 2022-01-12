@@ -3,7 +3,7 @@
 <h3 align="left">Meu progresso no Grasshopper</h3>
 
 
-<li> Funções:
+<li> Variaveis/Funções:
   
   1- `drawBox()`
   
@@ -78,6 +78,71 @@ cityOfDestination = 'Manila';
   ```
   
   ##
+  
+  7- `print()`
+  
+  > Pega o que está entre parênteses e exibe. Por exemplo, `print('hello world')` exibiria o texto 'hello world'.
+  
+  ```js
+  print('Hello, world!')
+  // O texto 'Hello, world!' será impresso.
+  ```
+  
+  ##
+  
+  8- `Encadeamento`
+  
+  > O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
+  
+  ```js
+  svg​.append('circle')
+    ​.attr('fill', 'blue')
+    ​.attr('r', 200);
+  // Um círculo SVG é criado com um atributo de azul para seu preenchimento e um raio de 200 aplicado ao mesmo tempo usando .append() e duas chamadas de função .attr() encadeadas.
+  ```
+  
+  ##
+  
+  9- `Acessar uma Propriedade`
+  
+  > Um objeto pode armazenar várias informações dentro de uma variável. A notação de ponto é usada para acessar uma propriedade de um objeto. Por exemplo, `objectName.propertyName.`
+  
+  ```js
+  var objectName = {
+    propertyName: 'Coding is fun​.',
+    otherPropertyName: 'this is also a key value'
+};
+print(objectName​.propertyName);
+  // Este código imprimirá 'Coding is fun.'
+  ```
+  
+  ##
+  
+   10- `{ }`
+  
+  > Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
+  
+  ```js
+  var groceries = {
+    apples: 5,
+    bananas: 2
+};
+  // apples ebananas são propriedades do objeto groceries. 5 e 2 são os valores associados a essas propriedades. groceries.apples, por exemplo, é igual a 5.
+  ```
+ 
+  ##
+  
+  11- `[ ]`
+  
+  > Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
+  
+  ```var exampleArray = ['blue', 'orange', 5, 10, [50, 10]];
+  // exampleArray tem 5 itens. Ela contém strings, números e uma array; que tem dois itens que são números.
+  ```
+ 
+  ##
+  
+  
   
   <details>
  <summary><b> Clique aqui para ver o meu Progresso-Grass 💡 </b></summary>
