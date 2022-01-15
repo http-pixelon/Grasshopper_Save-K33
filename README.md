@@ -141,7 +141,7 @@ print(objectName​.propertyName);
   ```
  
   ##
-  kkkkkkkkk
+  kkkkkkkkkk
   
   
   
