@@ -141,8 +141,6 @@ print(objectName​.propertyName);
   ```
  
   ##
-  kkkkkkkkkk
-  
   
   
   <details>
@@ -158,3 +156,8 @@ print(objectName​.propertyName);
 |   |   |
 
 </details>
+  
+  ~Farm K33:
+  
+  301010101013+301010101013
+  
