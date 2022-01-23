@@ -35,8 +35,15 @@ drawBox(blue);
   
   3- `pickRandom()`
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   > Escolhe uma cor aleatória, item de uma array ou número.
   
+
+CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   var arrayOfColors = ['blue', 'orange'];
 var randomColor = pickRandom(arrayOfColors); //randomColor será 'blue' ou 'orange'.
@@ -48,6 +55,9 @@ var randomColor = pickRandom(arrayOfColors); //randomColor será 'blue' ou 'oran
   
   > Letras, palavras e frases são chamadas de strings na programação. As aspas são usadas para mostrar o início e o fim de uma string. Por exemplo, 'hello world' é uma string..
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   drawBoxes('royg');
   // 'royg' é uma string usada na função drawBoxes() para criar caixas vermelhas, laranja, amarelas e verdes.
@@ -59,6 +69,9 @@ var randomColor = pickRandom(arrayOfColors); //randomColor será 'blue' ou 'oran
   
   > Um boolean é um dos dois valores especiais em JavaScript, true ou false. Eles são úteis para lidar com estados que possuem apenas duas possibilidades.
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   var isLearningToCode = true; var shouldWearSocksWithSandals = false;
   // É true que você está aprendendo a programar, mas é false que se deva usar meias com sandálias.
@@ -70,6 +83,9 @@ var randomColor = pickRandom(arrayOfColors); //randomColor será 'blue' ou 'oran
   
   > Uma forma de armazenar um valor para uso posterior, também conhecido como variável. Uma var deve ter um nome (também conhecido como identificador) e, opcionalmente, pode ser atribuído um valor, que pode ser um número, uma string ou um dado mais complexo.
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   var cityOfOrigin = 'Pittsburgh';
 var cityOfDestination;
@@ -83,6 +99,9 @@ cityOfDestination = 'Manila';
   
   > Pega o que está entre parênteses e exibe. Por exemplo, `print('xanagem')` exibiria o texto 'xanagem'.
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   print('Hello, Pixelworld!')
   // O texto 'Hello, Pixelworld!' será impresso.
@@ -94,6 +113,9 @@ cityOfDestination = 'Manila';
   
   > O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   svg​.append('circle')
     ​.attr('fill', 'blue')
@@ -107,6 +129,9 @@ cityOfDestination = 'Manila';
   
   > Um objeto pode armazenar várias informações dentro de uma variável. A notação de ponto é usada para acessar uma propriedade de um objeto. Por exemplo, `objectName.propertyName.`
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   var objectName = {
     propertyName: 'Codificar é divertido demais vei​.',
@@ -122,6 +147,9 @@ print(objectName​.propertyName);
   
   > Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
   
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```js
   var groceries = {
     maças: 5,
@@ -136,8 +164,68 @@ print(objectName​.propertyName);
   
   > Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
   
+  > Indexação da array começa em 0. Por exemplo, myArray[0] vincula-se ao 1º item na array denominada myArray. Enquanto myArray[1] se vincula ao 2º item.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
   ```var exampleArray = ['blue', 'orange', 5, 10, [50, 10]];
   // exampleArray tem 5 itens. Ela contém strings, números e uma array; que tem dois itens que são números.
+  ```
+ 
+  ##
+  
+    12- `=`
+  
+  > "Define (ou redefine)" o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar e à direita está o novo valor.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```var myNumber = 10;
+  // myNumber será igual a 10.
+  ```
+ 
+  ##
+  
+      13- `*=`
+  
+  > "Multiplica" o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```var myNumber = 10;
+myNumber *= 5;
+  // myNumber será igual a 50.
+  ```
+ 
+  ##
+  
+      14- `+=`
+  
+  > "Adiciona" o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```var myNumber = 10;
+myNumber += 5;
+  // myNumber será igual a 15.
+  ```
+ 
+  ##
+  
+      15- `/=`
+  
+  > "Divide" o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```var myNumber = 10;
+myNumber /= 5;
+  // myNumber será igual a 2.
   ```
  
   ##
@@ -159,12 +247,4 @@ print(objectName​.propertyName);
   
   ~Farm K33:
   
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++301010101013++
-  301010101013++301010101013++301010101013++301010101013++
+  301010101013+
