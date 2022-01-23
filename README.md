@@ -109,7 +109,7 @@ cityOfDestination = 'Manila';
   
   ##
   
-  8- `Encadeamento`
+8- `Encadeamento`
   
   > O encadeamento permite que os programadores apliquem várias chamadas de função diferentes ao mesmo identificador.
   
@@ -143,7 +143,7 @@ print(objectName​.propertyName);
   
   ##
   
-   10- `{ }`
+10- `{ }`
   
   > Um objeto armazena vários valores que possuem nomes de propriedade (ou chave). Isso permite que eles sejam facilmente acessados posteriormente no código.
   
@@ -160,7 +160,7 @@ print(objectName​.propertyName);
  
   ##
   
-  11- `[ ]`
+11- `[ ]`
   
   > Em JavaScript, uma array é uma lista de itens. Os itens podem ser diferentes tipos de dados: números, strings e até mesmo outras arrays. Uma array dentro de outra array é chamada de aninhamento de arrays.
   
@@ -175,7 +175,7 @@ print(objectName​.propertyName);
  
   ##
   
-    12- `=`
+12- `=`
   
   > "Define (ou redefine)" o valor armazenado em uma variável. À esquerda está a variável que você gostaria de ajustar e à direita está o novo valor.
   
@@ -188,7 +188,7 @@ print(objectName​.propertyName);
  
   ##
   
-      13- `*=`
+13- `*=`
   
   > "Multiplica" o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
   
@@ -202,7 +202,7 @@ myNumber *= 5;
  
   ##
   
-      14- `+=`
+14- `+=`
   
   > "Adiciona" o valor associado à variável à esquerda com o valor à direita e atribui o valor resultante à variável existente.
   
@@ -216,7 +216,7 @@ myNumber += 5;
  
   ##
   
-      15- `/=`
+15- `/=`
   
   > "Divide" o valor associado à variável à esquerda pelo valor à direita e atribui o valor resultante à variável existente.
   
@@ -230,7 +230,99 @@ myNumber /= 5;
  
   ##
   
+16- `if`
   
+  > As if statements permitem que você execute uma seção específica do código quando um teste for verdadeiro. O código entre parênteses () é o teste. Se o teste for verdadeiro, o código dentro do bloco {} será executado. Se o teste não for verdadeiro, o código dentro do bloco não será executado.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```var aNumber = 5;
+if (aNumber === 5) {
+    drawBox(blue);
+}
+if (aNumber === 4) {
+    drawBox(red);
+}
+  // Nesse exemplo, a variável aNumber recebe o número 5. Existem duas if statements. A primeira é verificar se aNumber é igual a 5. A segunda é verificar se é igual a 4. Apenas o primeiro teste if statement é verdadeiro, então seria desenhada uma caixa azul.
+  ```
+ 
+  ##
+  
+17- `===`
+  
+  > Compara se duas coisas são iguais entre si.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```print(10 === 5);
+print(5 === 5);
+  // Esse código primeiro verifica se 10 é igual a 5. Como 10 é diferente de 5, é impresso false. O código então verifica se 5 é igual a 5. Como 5 é igual a 5, é impresso true.
+  ```
+ 
+  ##
+  
+18- `!==`
+  
+  > Compara se duas coisas (por exemplo, números, variáveis, etc.) são diferentes.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```print(10 !== 5);
+print(5 !== 5);
+  // Esse código primeiro verifica se 10 é diferente de 5. Como 10 é diferente de 5, é impresso true. O código então verifica se 5 é diferente de 5. Como 5 é igual a 5, é impresso false.
+  ```
+ 
+  ##
+  
+19- `<=`
+  
+  > Compara se um valor é menor ou igual a outro. Isso funciona para tipos de número e string, bem como alguns outros tipos menos óbvios, como uma array.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```if (5 <= 5) {
+    print('isso vai imprimir!');
+}
+  // Ele será impresso, porque 5 é igual a 5.
+  ```
+ 
+  ##
+ 
+20- `>=`
+  
+  > Compara se um valor é maior ou igual a outro. Isso funciona para tipos de dados como os números e strings, também com outros tipos menos óbvios, como os arrays.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```if (5 >= 6) {
+    print('Will this print?');
+}
+  // Não será impresso, porque 5 não é maior nem igual a 6.
+  ```
+ 
+  ##
+  
+  21- `<`
+  
+  > Compara se o lado esquerdo é menor que o lado direito.
+  
+  CÓDIGO DE EXEMPLO:
+  
+ 
+  ```if ('apples' < 'bananas') {
+    print('Will this print?');
+}
+}
+  // Será impresso porque o 'b' em 'bananas' é alfabeticamente 'greater' que o 'a' em 'apples'.
+  ```
+ 
+  ##             
+               
   <details>
  <summary><b> Clique aqui para ver o meu Progresso-Grass 💡 </b></summary>
 
